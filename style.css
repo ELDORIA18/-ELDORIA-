@@ -68,3 +68,29 @@ footer {
 footer p {
     font-size: 0.9rem;
 }
+
+/* Estilizando os botões do Discord */
+.botao-discord {
+    display: inline-block;
+    background-color: #5865F2;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.botao-discord:hover {
+    background-color: #4752C4;
+    transform: scale(1.05);
+}
+
+/* Container para alinhar os botões */
+.container-botoes {
+    text-align: center;
+    margin-top: 20px;
+}
